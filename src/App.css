@@ -1,0 +1,72 @@
+form {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(149, 255, 122);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.tituloPagina {
+  text-align: center;
+  color: black;
+  font-size: 3.1rem;
+}
+
+.barra-busqueda {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.boton-buscar {
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: rgb(0, 245, 0);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+
+.boton-buscar:hover {
+  background-color: rgb(3, 158, 3);
+  color:white;
+}
+
+.menu {
+  width: 600px; 
+  height: 200px; 
+  margin-top: 50px;
+  text-align: center;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.movie-item {
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: rgba(255, 255, 255, 0.911);
+  border-radius: 50px;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.div-peliculas {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Crea 3 columnas de igual tamaño */
+}
+
+.titulo-pelicula {
+  font-size: 2rem;
+}
+
+.film-image {
+  border-radius: 40px;
+}
